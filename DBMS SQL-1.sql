@@ -124,11 +124,3 @@ VALUES
 (5, 'Karan', 2);
 
 
--- =========================
--- Q1. STUDENT NAME + DEPARTMENT NAME
--- =========================
-
-SELECT s.student_name, d.department_name
-FROM Student s
-INNER JOIN Department d
-ON s.department_id = d.department_id;
